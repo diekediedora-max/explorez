@@ -86,4 +86,135 @@ button{
     align-items: center;
     flex-direction: column;
     padding-top: 100px;
+    text-align: center;
     }
+    .pg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 320px;  
+        gap: 30px;      
+    }
+
+.alt{
+    
+    display: flex;
+
+    /* flex-direction: row; */
+justify-content: center;
+gap: 20px;
+/* position: absolute;
+top: 790px;
+left: 430px; */
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    
+}
+
+.secc{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* text-align: center; */
+    /* position: absolute;
+    top: 1000px;
+    left:430px */
+}
+
+.view{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    padding:20px;
+    background-color: white;
+    display: flex;
+    /* gap: 5px; */
+    
+}
+.all
+{
+    display: flex;
+    gap: 10px;
+    font-size: 11px
+}
+
+.our{
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+h5{
+    font-size: 20px;
+}
+.sss{
+    width: 470px;
+}
+.pp{
+    padding-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+.png{
+    width:160px;
+}
+
+.siis{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 20px;
+    
+}
+.sii{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 20px;
+}   
+
+.mask{
+    display: flex;
+    padding-top: 100px;
+    
+}
+.mom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-size: 15px;
+    padding-left: 20px;
+    
+}
+.frame{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.jn{
+    padding-top: 30px;
+    font-size: 15px;
+}
+.be{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100px;
+}
