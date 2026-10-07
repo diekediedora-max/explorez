@@ -210,11 +210,34 @@ h5{
     flex-direction: column;
     color: white;
 }
-.big{
+.bigy{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 100px;
+    height: 300px;
+    /* padding-top: 50px; */
+}
+.foot{
+    padding-top: 50px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.booking{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+}
+.contacts{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
