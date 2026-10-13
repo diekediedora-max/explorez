@@ -1,349 +1,891 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    /* font-family: lora; */
+
+/* =========================
+   1. GENERAL STYLES
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.image{
-    background-position: center;
-    background-image: url('Rhema Images/67a96536798ffc75c0629cbfead743b8 1 (1).png');
-    background-size: cover;
-    background-repeat: no-repeat;
- height:550%;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     width: 100%;
-   
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    color: #111;
 }
 
-/* .text{ */
-     /* color: white;  */
-     /* font-size: 50px; */
-     /* align-items: center; */
-     /* justify-content: center; */
-     /* flex-direction: column; */
-
-/* } */
-
-.cons{
-    /* width: 70%; */
-    padding: 0px;
-    
-}
- h3{
-    /* border: 1px solid green; */
-    font-size: 50px;
-    color: white;
-    display: flex;
-    width:50%;
-    padding-top: 70px;
-    /* justify-content: center; */
-    
-} 
-.logo{
-    height: 200px;
-    width: 300px;
+img {
+    max-width: 100%;
+    height: auto;
     display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =========================
+   2. HEADER / HERO SECTION
+========================= */
+
+header {
+    background-image:
+        url('Rhema Images/67a96536798ffc75c0629cbfead743b8 1 (1).png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 90vh;
+    color: white;
+    padding: 20px 5%;
+}
+
+/* Navigation and hero containers */
+
+.big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+header .big.div {
+    min-height: 70px;
+    gap: 20px;
+}
+
+.log {
+    width: 140px;
+    max-width: 40%;
+    object-fit: contain;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+header .image {
+    display: block;
+}
+
+header li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+header li a {
+    color: white;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+header li button,
+header .book {
+    background-color: yellow;
+    color: black;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.ham {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+/* Hero text and image */
+
+header .big:not(.div) {
+    padding-top: 60px;
+    align-items: center;
+}
+
+.medium {
+    flex: 1;
+    min-width: 0;
+}
+
+header h3 {
+    color: white;
+    font-size: clamp(32px, 4vw, 56px);
+    line-height: 1.2;
+    text-align: left;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 650px;
+}
+
+.cons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    color: white;
+}
+
+.hps {
+    width: 100%;
+    max-width: 420px;
+    line-height: 1.7;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.now {
+    background-color: yellow;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact {
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+
+.ims {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.img {
+    width: 100%;
+    max-width: 450px;
+    object-fit: contain;
+}
+
+.imms {
+    display: none;
+}
+
+
+/* =========================
+   3. AMENITIES SECTION
+========================= */
+
+.amy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 20px 40px;
+    text-align: center;
+    gap: 12px;
+}
+
+.amy h2 {
+    font-size: clamp(26px, 3vw, 38px);
+}
+
+.amy p {
+    line-height: 1.7;
+}
+
+.pgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.pg {
+    flex: 1;
+    min-width: 0;
+}
+
+.pngs {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.bb {
+    flex: 1;
+    min-width: 0;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.alt,
+.secc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.alt > div,
+.secc > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.alt img,
+.secc img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.alt p,
+.secc p {
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.view {
+    padding: 50px 20px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    padding: 15px 22px;
+    background-color: white;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 12px;
+}
+
+.all img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* =========================
+   4. OUR ROOMS SECTION
+========================= */
+
+.our {
+    padding: 80px 5%;
+    max-width: 1300px;
     margin: 0 auto;
 }
-li{
-    font-size: 20px;
-    display: flex;
-    justify-content: end;
-    gap: 30px;
-    padding: 20px;
-    list-style: none;
-    
 
+h5 {
+    font-size: clamp(26px, 3vw, 38px);
+    margin-bottom: 15px;
 }
-a{
-    text-decoration: none;
-    color: white;
-    
+
+.our > p {
+    max-width: 650px;
+    line-height: 1.7;
 }
-.book{
-    font-size: 20px;
-    padding: 5px;
-    /* margin-left: 50px; */
-    margin-top: 0px;
-    background-color: yellow;
-}
-.contact{
-    font-size: 50px;
-    padding: 30px;
-    /* margin-left: 20px; */
-    background-color: transparent;
-    /* margin-top: 30px; */
-    color: white;
-}
-.now{
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-left: 50px;
-    margin-top: 100px;
-    background-color: yellow;
-    
-}
-.img{
+
+.pp {
+    padding-top: 40px;
     display: flex;
-    justify-content: center;  
-    /* margin-left: 2020px; */
-    width: 1500px;
-     height: 1200px; 
-    /* margin-top:  -900px; */
-    /* margin-right: 500px; */
+    align-items: stretch;
+    gap: 20px;
 }
-header
-h3{
-    
-    font-size: 45px;
-    
+
+.sss {
+    width: 70%;
+    min-width: 0;
+    object-fit: cover;
+    border-radius: 8px;
 }
-.hps{
+
+.png {
+    width: 30%;
+    min-width: 0;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.siis {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.sii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 24px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+.pms {
+    width: 15px;
+}
+
+
+/* =========================
+   5. TESTIMONIAL SECTION
+========================= */
+
+.mask {
+    display: flex;
+    align-items: center;
+    gap: 50px;
     padding-top: 100px;
 }
-.amy{
+
+.mask > img {
+    width: 55%;
+    min-width: 0;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.mom {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    font-size: 60px;
-     padding-bottom: 200px; 
+    align-items: flex-start;
+    flex: 1;
+    min-width: 0;
+    font-size: 15px;
+    line-height: 1.8;
 }
-h2{
- padding-top: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: row; */
-    font-size: 100px;    
-}
-.pg{
-    /* display: flex; */
-    margin-left: 200px;
-    width: 1500px;
-    height: 1200px;
-}
-.vectoring{
-    /* width: 1500px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 400px;
-    gap: 300px; 
-    margin-top: -1000px;
-    /* height:1300px; */
-    
-}
-.alt{
+
+.frame {
     width: 100px;
-    height: 100px;
-     gap: 1000px;
-} 
-.gymn{
-    font-size: 50px;
-    margin-top: 50px;
-}
-.stay{
-    font-size: 35px;
-    margin-top: 20px;
-    line-height: 40px;
-}
-.pm{
-     width: 100px;
-    height: 100px;
-
-}
-.rest{
-    font-size: 50px;
-    margin-top: 50px;
-}
-.text2{
-margin-top: 100px;
-}
-.ppp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1800px;
-    gap: 300px; 
-    margin-top: 200px; 
-    
-}
-.ppp{
-    width: 100px;
-    height: 100px;
-}
-.swim{
-    margin-left: 1800px;
-    margin-top: 50px;
-    font-size: 50px;
-}
-.stays{
-       font-size: 35px;
-    margin-top: 20px;
-    line-height: 40px;
-    margin-left: 1800px;
-}
-.kara{
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2353px;
-    gap: 300px; 
-    margin-top: -330px; 
-    width: 100px;    
-
-}
-.bar{
-     margin-left: 2350px;
-    margin-top: 50px;
-    font-size: 50px;
-}
-.staying{
-       font-size: 35px;
-    margin-top: 28px;
-    line-height: 40px;
-    margin-left: 2350px;
-    margin-bottom: 400px;
-}
-.view{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* gap: 1000px; */
-    margin-bottom: 400px;
-    /* padding-left: 10px; */
-    /* width: 50px; */
-}
-.all{
-    padding: 30px; 
-     padding-left: -9px; 
-    /* padding-right: 10px; */
-    background-color: white;
-    font-size: 30px;
-    width: 350px;
-    /* gap: 1000px; */
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.vectors{
-    display: flex;
-    width: 50px;
-    margin-left: 250px;
-    margin-top: -35px;
+.jn {
+    padding-top: 25px;
+    font-size: 14px;
 }
-.our{
-    font-size: 120px;
-    margin-left: 200px;
-      margin-bottom: 350px;  
-}
-.ats{
-    font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 250px;
-}
-.sss{
-    width: 1800px;
-    height: 1200px;
-}
-.png{
-    width: 1000px;
-    height: 1200px;
-    margin-top: 100px;
-}
-.sii{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background-color: white;
-    margin-bottom: 200px;
-    padding-right: 70px;
-    padding-left: 70px;
-    font-size: 50px;
-    gap: 30px;
-}
-.pms{
-    width: 50px;
-}
-.mask{
-      width: 1300px;
-    height: 1000px;
-     margin-bottom: 200px;
-    margin-left: 200px;
-    display: flex;
-    gap: 200px;
-}
-.frame{
-    width: 750px;
-    margin-top: 150px;
-    height: 100px;
-    gap: 550px;
-    display: flex;
-    justify-content: center;
-}
-.mom{
-    font-size: 60px;
-    line-height: 80px;
-    margin-top: 100px;
-    width: 1000px;
-    margin-bottom: 70px;
-}
-.john{
-    font-size: 40px;
-}
-.ttt{
-    font-size: 40px;
-}
-.jog{
-    font-size: 60px;
-    /* line-height: 60px; */
-    color: white;
-    
 
-    
+.john {
+    font-weight: bold;
 }
-.jo{
-    font-size: 90px;
-    margin-bottom: 30px;
-    color: white;
-     margin-top: 360px; 
+
+.ttt {
+    color: #666;
 }
 
 
-.ff{
-color: white;
-    width: 1100px;
+/* =========================
+   6. FOOTER / CALL TO ACTION
+========================= */
+
+.foot {
+    padding-top: 40px;
 }
-.big{
+
+.bigy {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 400px;
-    
+    color: white;
+    min-height: 300px;
+    padding: 50px 5%;
+    text-align: center;
 }
-.sims{
-    padding-left: 100px;
-}
-.booking{
-    font-size: 40px;
-    padding: 40px;
-    margin-left: -380px;
-    background-color: yellow;
-    margin-top: 40px;
-    
-}
-.contacts{
-    margin-top: -130px;
-    margin-left: 370px;
-    font-size: 50px;
-    padding: 30px;
-    background-color: transparent;
+
+.be {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
     color: white;
 }
-/* .biggy{ */
-    /* background-color: white; */
 
+.jo {
+    font-size: clamp(26px, 4vw, 42px);
+    line-height: 1.3;
+}
+
+.jog {
+    line-height: 1.8;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.booking {
+    background-color: yellow;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+.contacts {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 13px 25px;
+}
+
+
+/* =========================
+   7. TABLET RESPONSIVENESS
+   Tablets: 768px - 1024px
+========================= */
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        min-height: auto;
+        padding: 20px 4%;
+    }
+
+    header li {
+        gap: 16px;
+    }
+
+    header li a {
+        font-size: 14px;
+    }
+
+    header .big:not(.div) {
+        padding-top: 45px;
+        gap: 20px;
+    }
+
+    header h3 {
+        font-size: clamp(30px, 4vw, 42px);
+    }
+
+    .img {
+        max-width: 380px;
+    }
+
+    .pgg {
+        gap: 25px;
+        padding: 0 4%;
+    }
+
+    .pngs {
+        height: 320px;
+    }
+
+    .alt,
+    .secc {
+        gap: 18px;
+    }
+
+    .our {
+        padding: 65px 4%;
+    }
+
+    .mask {
+        gap: 30px;
+        padding-top: 75px;
+    }
+
+    .frame {
+        width: 85px;
+    }
+}
+
+
+/* =========================
+   8. MOBILE RESPONSIVENESS
+   Phones: 767px and below
+========================= */
+
+@media screen and (max-width: 767px) {
+
+    /* Header and navigation */
+
+    header {
+        min-height: auto;
+        height: auto;
+        padding: 18px 5% 35px;
+        background-position: center;
+    }
+
+    header .big.div {
+        min-height: 50px;
+        padding: 0;
+    }
+
+    .log {
+        width: 120px;
+        max-width: 65%;
+    }
+
+    .ham {
+        display: block;
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+    }
+
+    .navbar,
+    header .image {
+        display: none;
+    }
+
+    /* Stack hero text and image */
+
+    header .big:not(.div) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 45px;
+    }
+
+    .medium {
+        width: 100%;
+    }
+
+    header h3 {
+        width: 100%;
+        max-width: 500px;
+        font-size: clamp(30px, 7vw, 42px);
+        line-height: 1.2;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    .cons {
+        align-items: center;
+        width: 100%;
+        padding: 15px 0;
+        gap: 20px;
+    }
+
+    .hps {
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .btn {
+        justify-content: center;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .now,
+    .contact {
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+
+    .ims {
+        display: none;
+    }
+
+    .imms {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .imms .img {
+        width: 100%;
+        max-width: 420px;
+        padding: 0;
+        object-fit: contain;
+    }
+
+
+    /* Amenities */
+
+    .amy {
+        padding: 55px 20px 30px;
+    }
+
+    .amy p {
+        font-size: 14px;
+    }
+
+    .pgg {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .pg,
+    .bb {
+        width: 100%;
+        flex: none;
+    }
+
+    .pngs {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    .contain {
+        padding-bottom: 25px;
+    }
+
+    .alt,
+    .secc {
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .alt > div,
+    .secc > div {
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .alt img,
+    .secc img {
+        width: 35px;
+        height: 35px;
+        margin: 0 auto 10px;
+    }
+
+    .alt p,
+    .secc p {
+        font-size: 12px;
+        overflow-wrap: break-word;
+    }
+
+    .view {
+        padding: 35px 20px 50px;
+    }
+
+
+    /* Our rooms */
+
+    .our {
+        padding: 50px 5%;
+        text-align: center;
+    }
+
+    .our > p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .pp {
+        padding-top: 25px;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .sss {
+        width: 68%;
+        object-fit: cover;
+    }
+
+    .png {
+        width: 32%;
+        object-fit: cover;
+    }
+
+    .siis {
+        padding-top: 25px;
+    }
+
+    .sii {
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+
+
+    /* Testimonial */
+
+    .mask {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding-top: 55px;
+    }
+
+    .mask > img {
+        width: 100%;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    .mom {
+        width: 100%;
+        flex: none;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .frame {
+        width: 85px;
+        margin: 0 auto 15px;
+    }
+
+    .jn {
+        padding-top: 20px;
+        font-size: 13px;
+    }
+
+
+    /* Footer */
+
+    .foot {
+        padding-top: 15px;
+    }
+
+    .bigy {
+        min-height: auto;
+        padding: 50px 6%;
+    }
+
+    .be {
+        width: 100%;
+    }
+
+    .jo {
+        font-size: clamp(25px, 6vw, 34px);
+    }
+
+    .jog {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .sims {
+        display: inline;
+    }
+
+    .btns {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        max-width: 300px;
+        gap: 12px;
+    }
+
+    .booking,
+    .contacts {
+        width: 100%;
+        padding: 13px 15px;
+    }
+}
+
+
+/* =========================
+   9. SMALL MOBILE SCREENS
+   Phones: 380px and below
+========================= */
+
+@media screen and (max-width: 380px) {
+
+    header {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    header h3 {
+        font-size: 29px;
+    }
+
+    .hps {
+        font-size: 13px;
+    }
+
+    .btn {
+        gap: 10px;
+    }
+
+    .now,
+    .contact {
+        padding: 11px 13px;
+        font-size: 12px;
+    }
+
+    .alt,
+    .secc {
+        gap: 8px;
+    }
+
+    .alt p,
+    .secc p {
+        font-size: 11px;
+    }
+
+    .pp {
+        gap: 8px;
+    }
+
+    .our {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .mask {
+        padding-top: 40px;
+    }
+
+    .bigy {
+        padding: 40px 5%;
+    }
+}
