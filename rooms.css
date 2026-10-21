@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    header{
+    background-image: url("watermarked_img_13877595574502235787 (1).jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+
+}
+body{
+    background-color:whitesmoke ;
+}
+.head{
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+.p1{
+    color: white;
+    width: 450px;
+    font-size: 20px;
+    padding-top: 40px;
+    
+}
+.bby{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 210px;
+    gap: 30px;
+}
+.bby button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+.alls{
+    color: white;
+    background-color: black;
+    border: black;
+}
+
+.stan{
+    background-color: transparent;
+    border:1px solid black;
+}
+
+.ims{
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+}
+.imm{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    padding-left: 80px;
+}
+.sty{
+        border: 1px solid burlywood;
+        box-shadow: 2px  2px 2px 2px white;
+        border-radius: 30px;
+        border-top: none;
+}
+.bor{
+    height: 100px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-top: none;
+
+}
+h4{
+    padding-bottom: 10px;
+}
+
+.bor p{
+    padding-bottom: 10px;
+    color: orange;
+}
+
+.bor button{
+    border: black;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    
+}
+
+.bors button{
+    background-color: white;
+    cursor: pointer;
+      padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    border: 1px solid black;
+    
+  
+}
+.bors{
+    padding-left: 20px;
+}
+.bors p{
+    padding-bottom: 10px;
+    color: orange;
+}
+
+.borss{
+    padding-left: 20px;
+}
+
+.borss button{
+    background-color: white;
+    cursor: pointer;
+      padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    border: 1px solid black;
+}
+
+.borss p{
+    padding-bottom: 10px;
+    color: orange;
+}
+
+.big{
+     display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+}
+.gta{
+            border: 1px solid burlywood;
+        box-shadow: 2px  2px 2px 2px white;
+        border-radius: 30px;
+        border-top: none;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+}
+.bin{
+    padding-left: 20px;
+}
+
+.bin p{
+    padding-bottom: 10px;
+    color: orange;
+}
+
+.bin button{
+    background-color: white;
+    cursor: pointer;
+      padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.bins{
+    padding-left: 20px;
+}
+.bins p{
+    color: orange;
+    padding-bottom: 10px;
+}
+.bins button{
+      background-color: white;
+    cursor: pointer;
+      padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    border: 1px solid black;
+
+}
+.pp{
+         border: 1px solid burlywood;
+        box-shadow: 2px  2px 2px 2px white;
+        border-radius: 30px;
+        border-top: none;
+        /* width: 320px; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    
+}
+.binn{
+    padding-left: 20px;
+}
+.binn p{
+    color: orange;
+    padding-bottom: 10px;
+}
+.binn button{
+    background-color: white;
+    cursor: pointer;
+      padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius:  20px;
+    border: 1px solid black;
+}
+.binns{
+    border: 1px solid burlywood;
+        box-shadow: 2px  2px 2px 2px white;
+        border-radius: 30px;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+footer{
+    background-image: url("Luxury Bedroom Overlooking the City at Dusk.png");
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    padding-top: 20px;
+}
+
+footer h1{
+    font-size: 60px;
+        font-family: Arial, sans-serif;
+
+    width: 430px;
+    color: #B18A45;
+   }
+   .foot{
+     padding-left: 30px;
+
+   }
+   
+footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.tagline {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #B18A45;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
