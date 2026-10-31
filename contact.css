@@ -34,10 +34,126 @@ header{
     display: flex;
     flex-direction: column;
 }
-.im{
+
+header{
+    background-image: url("Luxurious Roomly Hotel Lobby at Sunset.png");
+    background-position: center;
+    background-repeat: none;
     width: 100%;
-    height: 60vh;
-background-position: center;
-/* padding-top: 20px; */
-/* padding-left:70px ; */
+    height: 50vh;
+}
+h1{
+    font-size: 100px;
+    color: white;    
+}
+.con{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    gap: 20px;
+    display: flex;
+}
+h2{
+        color: rgb(236, 203, 72) ;
+        font-size: 100px;
+}
+.coni p{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+}
+.cons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.coni{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     height: 35vh;
+     flex-direction: column;
+    
+}
+h5{
+font-size: 20PX;
+color:  rgb(236, 203, 72) ;
+}
+.txt{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.bigi{ 
+    display: flex;
+     padding-top: 30px;
+    padding-left: 50px;
+
+} 
+h4{
+    padding-top: 20px;
+    font-size: 25px;
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.txt p{
+    /* padding-top: 20px; */
+    width: 350px;
+    font-size: 20px;
+}
+.ims{
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 0px;
+    /* flex-direction: column; */
+}
+.pn{
+        width: 40px;
+        height: 45px;
+        color: gold;
+        /* padding-top: 20px; */
+        gap: 10px;
+        /* background-color:  rgb(134, 117, 117); */
+        /* border-radius: 150px; */
+/* 1221517559 zenith  */
+}
+.ims p{
+    /* gap: 10px; */
+    padding-left: 10px;
+    font-size:20px;
+}
+.ph{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding-left: 5px; */
+}
+.env{
+    width: 45px;
+    height: 45px;
+    padding-top: 0px;
+    padding-right: 10px;
+    
+}
+.imss{
+     padding-top: 20px;
+    display: flex;
+    padding-bottom: 0px;
+   
+}
+.loc{
+    width: 45px;
+    padding-right: 10px;
+}
+.imma{
+     padding-top: 20px;
+    display: flex;
+    padding-bottom: 0px;
+}
+.bb{
+    border: 1px solid orange;
 }
