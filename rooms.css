@@ -11,6 +11,23 @@
     background-repeat: none;
 
 }
+.lin{
+display: flex;
+gap: 30px;
+justify-content: space-between;
+}
+.ser{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display:flex;
+}
 body{
     background-color:whitesmoke ;
 }
