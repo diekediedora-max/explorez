@@ -19,7 +19,9 @@ body{
     flex-direction: column;
 
 }
-
+#close{
+    display: flex;
+}
 h1{
     font-size: 100px;
     color: white;

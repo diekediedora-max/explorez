@@ -308,7 +308,7 @@ h5{
     }
      .ham{
         display: flex;
-        padding-left: 120px;
+        padding-left: 20px;
         /* justify-content: start; */
     } 
     .now{
@@ -467,6 +467,9 @@ h5{
     .contacts{
         padding-top:10px ;
         padding-bottom: 10px;
+    }
+    .close{
+        display: none;
     }
 }
     

@@ -571,13 +571,21 @@ h5 {
         width: 28px;
         height: 28px;
         object-fit: contain;
+        margin-left: 30px;
     }
-
+    #close{
+        display: none;
+    }
     .navbar,
     header .image {
         display: none;
     }
-
+    .image{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
     /* Stack hero text and image */
 
     header .big:not(.div) {
