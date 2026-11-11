@@ -90,7 +90,12 @@ header li {
     justify-content: center;
     gap: 25px;
 }
-
+.x{
+    display: none;
+}
+#close{
+    display: none;
+}
 header li a {
     color: white;
     font-size: 15px;
