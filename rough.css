@@ -563,7 +563,7 @@ h5 {
 
     header .big.div {
         min-height: 50px;
-        padding: 0;
+        transform: translateY(-20px);
     }
 
     .log {
@@ -582,6 +582,8 @@ h5 {
         display: flex;
         width: 50%;
         margin-left: 200px;
+                transform: translateY(30px);
+
     }
     .navbar,
     header .image {
