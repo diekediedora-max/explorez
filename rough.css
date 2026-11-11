@@ -573,8 +573,10 @@ h5 {
         object-fit: contain;
         margin-left: 30px;
     }
-    #close{
-        display: none;
+    .x{
+        display: flex;
+        width: 50%;
+        margin-left: 200px;
     }
     .navbar,
     header .image {
@@ -582,8 +584,18 @@ h5 {
     }
     .image{
         display: flex;
-        flex-direction: row;
-        background-color: black;
+        flex-direction: column;
+        background-color: transparent;
+        padding-top: 0px;
+        padding-left: 80px;
+        padding-right:110px ;
+        width: 250px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 44px;
     }
     
     /* Stack hero text and image */

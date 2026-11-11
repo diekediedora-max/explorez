@@ -7,3 +7,9 @@ open.addEventListener("click", function(){
   open.style.display ="none"
     close.style.display ="block"
 })
+close.addEventListener("click", function(){
+    // nav.classList.remove("openMenue")
+     mobileMenue.style.display="none"
+  open.style.display ="block"
+    close.style.display ="block"
+})
