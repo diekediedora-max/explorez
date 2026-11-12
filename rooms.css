@@ -37,7 +37,9 @@ body{
     flex-direction: column;
     padding-top: 60px;
 }
-
+#close{
+    display: flex;
+}
 h1{
     font-size: 100px;
     color: white;

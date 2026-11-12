@@ -90,7 +90,12 @@ header li {
     justify-content: center;
     gap: 25px;
 }
-
+.x{
+    display: none;
+}
+#close{
+    display: none;
+}
 header li a {
     color: white;
     font-size: 15px;
@@ -558,7 +563,7 @@ h5 {
 
     header .big.div {
         min-height: 50px;
-        padding: 0;
+        transform: translateY(-20px);
     }
 
     .log {
@@ -571,13 +576,35 @@ h5 {
         width: 28px;
         height: 28px;
         object-fit: contain;
+        margin-left: 30px;
     }
+    .x{
+        display: flex;
+        width: 50%;
+        margin-left: 200px;
+                transform: translateY(30px);
 
+    }
     .navbar,
     header .image {
         display: none;
     }
-
+    .image{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        padding-top: 0px;
+        padding-left: 80px;
+        padding-right:110px ;
+        width: 250px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 44px;
+    }
+    
     /* Stack hero text and image */
 
     header .big:not(.div) {
