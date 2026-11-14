@@ -5,10 +5,10 @@ let close = document.getElementById("close");
 open.addEventListener("click", function(){
     nav.classList.add("active");
     open.style.display="none";
-    close.style.display="flex";
+    close.style.display="block";
 })
 close.addEventListener("click", function(){
      open.style.display="block";
-    close.style.display="block";
-    nav.style.display="none";
+    close.style.display="none";
+        nav.classList.remove("active");
 })
