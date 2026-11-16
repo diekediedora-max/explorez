@@ -11,9 +11,10 @@ a{
 }
 h3{
     color: gold;
-    padding-top: 10px;
-    width: 140px;
+    padding-top: 60px;
+    width: 1280px;
     padding-bottom: 10px;
+    font-size: 30px;
 }
 
 .lin{
@@ -391,17 +392,49 @@ padding-top: 30px;
 }
 
 /* Tablet */
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     .footer-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 45px;
     }
-}
+} */
 
 /* Mobile */
-@media (max-width: 500px) {
+ @media (max-width: 390px) { 
+    main{
+        display: none;
+    }
+    .roomly-footer{
+        display: none;
+    }
+    .lin{
+        display: none;
+    }
+    header{
+        display: flex;
+        background-image: url("Luxurious Roomly Hotel Lobby at Sunset.png");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+    .coni{
+        display: none;
+    }
+    h3{
+        display: flex;
+        width: 100px;
+        padding-left: 20px;
+        font-size: 35px;
+        padding-top: 40px;
+        border: 2px solid white;
+    }
+ }
+    /* main{
+        display: none;
+    }
     .roomly-footer {
-        padding: 45px 7% 20px;
+     padding: 45px 7% 20px;
+         display:none;
     }
 
     .footer-container {
@@ -426,4 +459,4 @@ padding-top: 30px;
     .footer-bottom p {
         line-height: 1.6;
     }
-}
+} */ */
