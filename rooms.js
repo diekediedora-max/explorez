@@ -1,15 +1,14 @@
-let open = document.getElementById("open")
-let close = document.getElementById("close")
-let nav = document.getElementById("nav")
+let open = document.getElementById("open");
+let nav = document.getElementById("linkz");
+let close = document.getElementById("close");
+
 open.addEventListener("click", function(){
-    // nav.classList.add("openMenue")
-   mobileMenue.style.display="block"
-  open.style.display ="none"
-    close.style.display ="block"
+    nav.classList.add("active");
+    open.style.display="none";
+    close.style.display="flex";
 })
 close.addEventListener("click", function(){
-    // nav.classList.remove("openMenue")
-     mobileMenue.style.display="none"
-  open.style.display ="block"
-    close.style.display ="block"
+     open.style.display="block";
+    close.style.display="block";
+    nav.style.display="none";
 })
